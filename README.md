@@ -2,6 +2,8 @@
 
 ### 1. Starting with the text data below, develop a regular expression that matches the US zip code at the end of each line. Your regex should support standard 5 digit zip codes as well as '5+4' digit versions.
 
+### Answer: /\d{5}-\d{4}|\d{5}/
+
 TEST DATA:
 ```
 College or Institution Type	Campus	Campus Website	Address	City	State	Zip
